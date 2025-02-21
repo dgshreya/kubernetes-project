@@ -1,5 +1,5 @@
 # Project Idea
-Deploying a single application on a Kubernetes cluster: This project involves setting up a Kubernetes cluster and deploying a simple application, such as a web server, on it. This can help you understand the basics of deploying applications on Kubernetes, including creating pods and deployment objects, and exposing them to the outside world using services.
+Deploying a simple portfolio application on a Kubernetes cluster: This project involves setting up a Kubernetes cluster and deploying a simple web application on it. We have demonstrated deploying applications on Kubernetes, including creating pods and deployment objects, and exposing them to the outside world using services.
 
 > I created a simple portfolio website about me and deployed it on Kubernetes.
   
