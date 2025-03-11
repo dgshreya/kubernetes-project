@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-portfolio-deployment
+  name: portfolio-deployment
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
-      app: my-portfolio
+      app: portfolio
   template:
     metadata:
       labels:
-        app: my-portfolio
+        app: portfolio
     spec:
       containers:
-      - name: my-portfolio
-        image: imaage/my-portfolio:0.1
+      - name: portfolio
+        image: myportfolio:latest
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
